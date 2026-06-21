@@ -1,360 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <h1><title>Canguu</title></h1>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/fonts.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UNO Underworld</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
-    <header class="header" class="container">
-        <a href="/" class="logo_link">
-            <img src="images/logo_full.svg" alt="Canguu" class="logo_image" width="172" height="40">
-        </a>
-        <nav class="nav">
-            <ul class="menu_list">
-                <button class="burger-btn">&#9776;</button>
-                <li class="menu_item"><a href="#" class="menu_link">Platform<img src="images/chek_icon.svg" alt="Icon" class="dropdown" width="8" height="8"></a></li>
-                <li class="menu_item"><a href="#" class="menu_link">Solutions<img src="images/chek_icon.svg" alt="Icon" class="dropdown" width="8" height="8"></a></li>
-                <li class="menu_item"><a href="#" class="menu_link">Integration</a></li>
-                <li class="menu_item"><a href="#" class="menu_link">Pricing</a></li>
-                <li class="menu_item"><a href="#" class="menu_link">Demo</a></li>
-                <li class="menu_item"><a href="#" class="menu_link">Resources<img src="images/chek_icon.svg" alt="Icon" class="dropdown" width="8" height="8"></a></li>
-            </ul>
-        </nav>
-        <button type="button" class="button">Start your free trial</button>
-    </header>
 
-    <main class="container">
-        <section class="hero">
-            <div class="illustration">
-                <img src="images/Illustration.png" alt="Изображение" class="picture" width="852" height="717">
-            </div>
-            <div class="hero_frame">
-                <div class="hero_subtitle">
-                    <p>Manage all your social media accounts in one place and save time.</p>
-                </div>
-                <ul class="hero_button">
-                    <li><button type="button" class="button2">Start your free trial</button></li>
-                    <li><button type="button" class="button2">Request a demo</button></li>
-                </ul>
-                <div class="hero_note">
-                    <p>No credit card required.</p>
-                </div>
-            </div>
-        </section>
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">UNO UNDERWORLD</div>
 
-        <section class="brand">
-            <div class="dashboard_image">
-                <img src="images/dashboard.png" alt="Dashboard" class="dashboard" width="1098" height="780">
-            </div>
-            <div class="logo_wrapper">
-                <div class="brand_title">
-                    <p>Trust by 99,000+ world-class brands and organizations</p>
-                </div>
-                <ul class="logotypes">
-                    <li><img src="images/logo_1.svg" alt="Logoiusum" class="logotype" width="300" height="120"></li>
-                    <li><img src="images/logo_2.svg" alt="Logoiusum" class="logotype" width="180" height="120"></li>
-                    <li><img src="images/logo_3.svg" alt="Logoiusum" class="logotype" width="259" height="120"></li>
-                    <li><img src="images/logo_4.svg" alt="Logoiusum" class="logotype" width="282" height="120"></li>
-                    <li><img src="images/logo_5.svg" alt="Logoiusum" class="logotype" width="185" height="120"></li>
-                    <li><img src="images/logo_6.svg" alt="Logoiusum" class="logotype" width="261" height="120"></li>
-                </ul>
-            </div>
-        </section>
+  <div class="links">
+    <a href="#hero">Главная</a>
+    <a href="#factions">Фракции</a>
+    <a href="#faq">FAQ</a>
+  </div>
 
-        <section class="features">
-            <div class="features_text">
-                <h2 class="features_title">Powerful Features to Boost Your Social Media Presence</h2>
-                <p class="features_subtitle">Everything you need to manage, schedule, and analizy your social media accounts.</p>
-            </div>
-            <ul class="features_images">
-                <li class="feature_card">
-                    <img src="images/unified_dashboard.png" alt="unified_dashboard" class="feature_image" width="368" height="500">
-                    <div class="feature_text">
-                        <p class="feature_title">Unified Dashboard</p>
-                        <p class="feature_subtitle">Connect and synchronize with pipular tools easily.</p>
-                    </div>
-                </li>
-                <li class="feature_card">
-                    <img src="images/content_scheduler.png" alt="content_scheduler" class="feature_image" width="368" height="500">
-                    <div class="feature_text">
-                        <p class="feature_title">Content Scheduler</p>
-                        <p class="feature_subtitle">Schedule posts in advance and keep your audience engaged around the clock.</p>
-                    </div>
-                </li>
-                <li class="feature_card">
-                    <img src="images/analytics_and_reporting.png" alt="analytics_and_reporting" class="feature_image" width="368" height="500">
-                    <div class="feature_text">
-                        <p class="feature_title">Analitics and Reporting</p>
-                        <p class="feature_subtitle">Gain insigths into your social media perfomance with detailed analytics and reports.</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
+  <button class="cta">Подать заявку</button>
+</nav>
 
-        <section class="case_study">
-            <div class="case_text">
-                <h2 class="case_tittle">Trusted partnership and integration across platform</h2>
-                <p class="case_subtitle">Assist you in unifying your customer intractions and stauing ahead of changers in the media landscape.</p>
-            </div>
-            <div class="smedias">
-                <img src="images/social_medias.png" alt="Social medias" class="social_medias" width="790" height="362">
-            </div>
-        </section>
+<!-- HERO -->
+<section id="hero" class="hero">
 
-        <section class="stats">
-            <ul class="stats_text">
-                <li class="stat">
-                    <h2 class="stat_title1">90%+</h2>
-                    <p class="stat_subtitle">Reduction in avarage time to first response</p>
-                </li>
-                <li class="stat">
-                    <h2 class="stat_title2">1,500%</h2>
-                    <p class="stat_subtitle">Increase in total social media engagements</p>
-                </li>
-                <li class="stat">
-                    <h2 class="stat_title3">4x</h2>
-                    <p class="stat_subtitle">Increase in average client retainer</p>
-                </li>
-            </ul>
-        </section>
+  <div class="bg"></div>
+  <div class="overlay"></div>
+  <div class="fog"></div>
 
-        <section class="testimonials">
-            <div class="test_text">
-                <h2 class="test_tittle">What Our Users Are Saying</h2>
-                <p class="test_subtitle">Join thousands of satisfied customers.</p>
-            </div>
-            <ul class="testimonials_frame">
-                <li class="people">
-                    <div class="people_image">
-                        <img src='images/women.png' alt="women" class="human1" width="107" height="128">
-                        <img src='images/people_background.png' class="back" width="336" height="243">
-                    </div>
-                    <div class="people_text">
-                        <div class="fullname">
-                            <h3 class="name">Jane Doe</h3>
-                            <p class="subname">Social Media Manager at XYZ Corp</p>
-                        </div>
-                        <p class="people_note">"This platform has revolutionized the way we manage our social media. Highly recommend!"</p>
-                    </div>
-                </li>
-                <li class="people">
-                    <div class="people_image">
-                        <img src='images/men.png' alt="man" class="human2" width="107" height="128">
-                        <img src='images/people_background.png' class="back" width="336" height="243">
-                    </div>
-                    <div class="people_text">
-                        <div class="fullname">
-                            <h3 class="name">John Smith</h3>
-                            <p class="subname">Digital Marketing Specialist</p>
-                        </div>
-                        <p class="people_note">"The scheduling feature is a game-changer. Our engagement has never been higher."</p>
-                    </div>
-                </li>
-                <li class="people">
-                    <div class="people_image">
-                        <img src='images/girl.png' alt="girl" class="human3" width="107" height="128">
-                        <img src='images/people_background.png' class="back" width="336" height="243">
-                    </div>
-                    <div class="people_text">
-                        <div class="fullname">
-                            <h3 class="name">Mariah Courtney</h3>
-                            <p class="subname">Social Media Specialist at Flock</p>
-                        </div>
-                        <p class="people_note">"This platform has thansformed our social media strategy. The unified dashboard and advanced analytics have made it so much easier to engage with our audienceand track our progress. We've seen a significant boost in our online prresence!"</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
+  <div class="hero-content">
+    <h1>UNO</h1>
+    <h2>UNDERWORLD</h2>
 
-        <section class="cta">
-            <div class="cta_frame">
-                <div class="cta_titles">
-                    <h2 class="cta_tittle">Enterprise Solutions for Social Media at Scale</h2>
-                    <p class="cta_text">Looking for a comprehensive platform your team will love? Canguu is the perfect choice. Discover how it can transform your entire business, offering industry insights, competitive intelligence, enhances customer service, and robust data analytics.</p>
-                </div>
-                <button type="button" class='cta_button'>Request a demo</button>
-            </div>
-            <div class="cta_image">
-                <img src="images/analitics.png" alt="Аналитика" class="analitics" width="540" height="313">
-            </div>
-        </section>
+    <p>
+      Освой правила Подземного мира.<br/>
+      Научись выживать среди фракций.
+    </p>
 
-        <section class="pricing">
-            <div class="pricing_text">
-                <h2 class="pricing_title">Choose Your Plan</h2>
-                <p class="pricing_subtitle">Flexible pricing options to suit your needs</p>
-            </div>
-            <ul class="pricing_cards">
-                <li class="plan">
-                    <div class="plan_picture">
-                        <img src="images/plan_icon.svg" alt="План" class="plan_image" width="58" height="58">
-                    </div>
-                    <div class="plan_text">
-                        <div class="plan_titles">
-                            <h3 class="plan_tittle">Free</h3>
-                            <p class="plan_price">$0/<span>month</span></p>
-                        </div>
-                        <div class="chooses">
-                            <div class="one_choose">
-                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                                <p class="choose_text">Basic Dashboard</p>
-                            </div>
-                            <div class="one_choose">
-                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                                <p class="choose_text">Content Scheduler</p>
-                            </div>
-                            <div class="one_choose">
-                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                                <p class="choose_text">Basic Analytics</p>
-                            </div>
-                        </div>
-                        <button type="button" class="button_choose">Get Started</button>
-                    </div>
-                </li>
-                <li class="plan">
-                    <div class="plan_picture">
-                        <img src="images/plan_icon.svg" alt="План" class="plan_image" width="58" height="58">
-                    </div>
-                    <div class="plan_text">
-                        <div class="plan_titles">
-                            <h3 class="plan_tittle">Pro</h3>
-                            <p class="plan_price">$29/<span>month</span></p>
-                        </div>
-                        <div class="chooses">
-                            <div class="one_choose">
-                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                                <p class="choose_text">All Free Features</p>
-                            </div>
-                            <div class="one_choose">
-                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                                <p class="choose_text">Advanced Analytics</p>
-                            </div>
-                            <div class="one_choose">
-                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                                <p class="choose_text">Social Listening</p>
-                            </div>
-                        </div>
-                        <button type="button" class="button_choose">Start your free trial</button>
-                    </div>
-                </li>
-                <li class="plan">
-                    <div class="plan_picture">
-                        <img src="images/plan_icon.svg" alt="План" class="plan_image" width="58" height="58">
-                    </div>
-                    <div class="plan_text">
-                        <div class="plan_titles">
-                            <h3 class="plan_tittle">Enteprise</h3>
-                            <p class="plan_price"> <span>month</span></p>
-                        </div>
-                        <div class="chooses">
-                            <div class="one_choose">
-                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                                <p class="choose_text">All Pro Features</p>
-                            </div>
-                            <div class="one_choose">
-                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                                <p class="choose_text">Dedicates Account Manager</p>
-                            </div>
-                            <div class="one_choose">
-                                <img src="images/Check.png" alt="Галочка" class="choose" width="24" height="24">
-                                <p class="choose_text">Custom Integrations</p>
-                            </div>
-                        </div>
-                        <button type="button" class="button_choose">Contact Us</button>
-                    </div>
-                </li>
-            </ul>
-        </section>
+    <div class="buttons">
+      <button class="primary">Вступить</button>
+      <button class="secondary">Подробнее</button>
+    </div>
+  </div>
+</section>
 
-        <section class="faq">
-            <div class="faq_text">
-                <h2 class="faq_tittle">Frequently Asked Questions</h2>
-                <p class="faq_subtitle">Have questions? We've got answers.</p>
-            </div>
-            <ul class="questions">
-                <li class="question">
-                    <div class="question_text">
-                        <p class="question_title">Can I schedule posts for multiple acoounts at once?</p>
-                        <img src="images/plus.svg" alt="Plus" class="plus" width="24" height="24">
-                        <img src="images/minus.svg" alt="Plus" class="minus" width="24" height="24">
-                    </div>
-                    <p class="answer">Simply go to the setting page and click on "Connect Accounts". Follow the prompts to link your social media profiles.</p>
-                </li>
-                <li class="question">
-                    <div class="question_text">
-                        <p class="question_title">How do I connect my social media accounts?</p>
-                        <img src="images/plus.svg" alt="Plus" class="plus" width="24" height="24">
-                        <img src="images/minus.svg" alt="Plus" class="minus" width="24" height="24">
-                    </div>
-                    <p class="answer">Simply go to the setting page and click on "Connect Accounts". Follow the prompts to link your social media profiles.</p>
-                </li>
-                <li class="question">
-                    <div class="question_text">
-                        <p class="question_title">Is there a mobile app?</p>
-                        <img src="images/plus.svg" alt="Plus" class="plus" width="24" height="24">
-                        <img src="images/minus.svg" alt="Plus" class="minus" width="24" height="24">
-                    </div>
-                    <p class="answer">Yes! We have a mobile application avaible for iOS and Android devices.</p>
-                </li>
-            </ul>
-        </section>
-    </main>
+<!-- FACTIONS -->
+<section id="factions" class="section">
+  <h2>Фракции</h2>
 
-    <footer class="container">
-        <div class="horizontal">
-            <div class="footer_sub">
-                <div class="footer_text">
-                    <h2 class="footer_title">Stay Updated</h2>
-                    <p class="footer_subtitle">Subscribe to our newsietter for the latest news and updates.</p>
-                </div>
-                <form action="/" class="footer_form">
-                    <input type="email" name="email" placeholder="Your email" class="subscribe" required>
-                    <button class="join_button">Join</button>
-                </form>
-            </div>
-            <div class="lists">
-                <div class="list1">
-                    <p class="list_name"><a href="#" class="list_name">Platform</a></p>
-                    <p class="list_name"><a href="#" class="list_name">Solutions</a></p>
-                    <p class="list_name"><a href="#" class="list_name">Integration</a></p>
-                    <p class="list_name"><a href="#" class="list_name">Pricing</a></p>
-                    <p class="list_name"><a href="#" class="list_name">Demo</a></p>
-                    <p class="list_name"><a href="#" class="list_name">Resources</a></p>
-                </div>
-                <div class="list2">
-                    <p class="list_name"><a href="#" class="list_name">Privacy policy</a></p>
-                    <p class="list_name"><a href="#" class="list_name">Terms od service</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="footer_logo">
-            <img src='images/logo_full.svg' alt='Canguu' class='logo_footer' width='1443' height='364'>
-        </div>
-        <div class="copyright">
-            <p class="copyright_text">Copyright @2024 Canguu</p>
-        </div>
-    </footer>
-    
-    <div class="applications" hidden>
-        <section class="application">
-            <div class="application_wrap">
-                <h3 class="application_title">Registration</h3>
-            </div>
-            <button class="application_close" type="button">Close</button>
-            <form action="/" class="application_form">
-                <input class="application_input" type="text" placeholder="Name">
-                <input class="application_input" type="email" placeholder="E-mail">
-                <input class="application_input" type="password" placeholder="Password">
-                <button class="application_button button">Sign up</button>
-            </form>
-        </section>
+  <div class="grid">
+
+    <div class="card vampire">
+      <h3>Вампиры</h3>
+      <p>Контроль крови и скрытые манипуляции.</p>
     </div>
 
-<script src="js/script.js"></script>
+    <div class="card wolf">
+      <h3>Оборотни</h3>
+      <p>Сила, давление и агрессия.</p>
+    </div>
+
+    <div class="card hunter">
+      <h3>Охотники</h3>
+      <p>Точная ликвидация угроз.</p>
+    </div>
+
+    <div class="card mad">
+      <h3>Безумцы</h3>
+      <p>Хаос, обман и разрушение логики.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section">
+  <h2>FAQ</h2>
+
+  <div class="faq-item">
+    <button class="faq-q">Что такое UNO Underworld?</button>
+    <div class="faq-a">Это стратегическая социальная игра с фракциями и экономикой.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-q">Нужно ли обучение?</button>
+    <div class="faq-a">Нет, программа начинается с базового уровня.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-q">Сколько длится программа?</button>
+    <div class="faq-a">Зависит от выбранного пути обучения.</div>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
